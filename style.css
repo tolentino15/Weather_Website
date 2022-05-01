@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swamp');
+*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    scroll-behavior: smooth;
+}
+
+body
+{
+    min-height: 100vh;
+    background: linear-gradient(#16076b,#8a0b96) ;
+    overflow-x: hidden;
+}
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+header .logo
+{
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #ffffff;
+    border-radius: 40%;
+}
+
+header ul li a:hover
+{
+    background: #ffffff;
+    color: #16076b;
+}
+
+section
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+section::before
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top,#16076b,transparent);
+    z-index: 1000;
+}
+
+section img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+section img#moon
+{
+    mix-blend-mode: screen;
+}
+
+section img#clouds
+{
+    z-index: 10;
+}
+
+#texto
+{
+    position: absolute;
+    right: -350px;
+    color: #ffffff;
+    white-space: nowrap;
+    font-size: 7.5vw;
+    z-index: 9;
+   
+}
+
+#btn
+{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: #ffffff;
+    color: #16076b;
+    font-size: 1.5em;
+    z-index: 9;
+    transform: translateY(100px);
+}
+
+.sec
+{
+    position: relative;
+    padding: 100px;
+    background: #16076b;
+}
+
+.sec h2
+{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.sec p
+{
+    color: #ffffff;
+    font-size: 1em;
+}
