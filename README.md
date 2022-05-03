@@ -10,14 +10,14 @@ Onde Apenas o Usuário Digita o nome da cidade, pode de ser até mesmo de outro 
         NOME DA CIDADE, PAÍS
       DIA DA SEMANA, MÊS E ANO
       
-   ...IMAGEM ILUSTRATIVA DO CLIMA
+     IMAGEM ILUSTRATIVA DO CLIMA
    
        Graus Celsius e Fahrenheit           // Fahrenheit só é exibido ao clicar na box.
        
-     *DESCRIÇÃO DE COMO ESTÁ O CLIMA*
+     DESCRIÇÃO DE COMO ESTÁ O CLIMA
             Graus Celsius
             
--- INPUT PARA PESQUISA -- <BOTÃO DE PESQUISA>
+ INPUT PARA PESQUISA -- <BOTÃO DE PESQUISA>
        
        
 END.
