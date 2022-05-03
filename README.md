@@ -16,4 +16,3 @@ Onde Apenas o Usuário Digita o nome da cidade, pode de ser até mesmo de outro 
        
      DESCRIÇÃO DE COMO ESTÁ O CLIMA
             Graus Celsius
-INPUT PARA PESQUISA -- <BOTÃO DE PESQUISA>
